@@ -10,4 +10,8 @@ Agenda
   3. update project - load from the repository
   4. show git log - show history
 - python infrastructure
+ 1. interpreter
+ 2. compiler
 
+PYTHON: text -> Interpreter execute binary 
+JAVA: text -> Bytecode Machine -> binary executable (depends on computer architecture)
