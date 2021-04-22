@@ -98,3 +98,4 @@ json.dumps json.loads
 
 curl -s -u username:$token https://api.github.com/users/t0lia | jq .login
   
+## CSV and file operation
