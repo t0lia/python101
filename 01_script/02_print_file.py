@@ -13,7 +13,6 @@ if not os.path.isfile(filename):
     exit(2)
 
 with open(sys.argv[1], 'r') as reader:
-    print(f"Please use 1 argument", file=sys.stderr)
     line = reader.readline()
     while line != '':  # The EOF char is an empty string
         print(line, end='')
